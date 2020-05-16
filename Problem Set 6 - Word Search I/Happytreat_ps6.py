@@ -23,7 +23,7 @@ class Solution(object):
             min_len = min(min_len, len(word))
 
         if min_len > len(s):
-            return false
+            return False
 
         dp = defaultdict(bool)
         dp[len(s)] = True
